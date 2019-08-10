@@ -86,7 +86,6 @@ pkg install php
 git clone https://github.com/Tuhinshubhra/RED_HAWK
 cd RED_HAWK
 php rhawk.php
-fi 
 
 if [ $pilih = "2" ]
 apt-get install php
@@ -95,7 +94,6 @@ pkg install php
 git clone https://github.com/mrcakil/admin_finder
 cd admin_finder
 php adfin.php 
-fi 
 
 if [ $pilih = "3" ]
 apt-get install wget
@@ -107,7 +105,6 @@ wget https://pastebin.com/raw/VnjR34YM -o $file
 clear 
 mv $file /sdcard/0/downloads
 echo -e "Silahkan Cek Folder Downloads"
-fi 
 
 if [ $pilih = "4" ]
 apt-get install php
@@ -120,7 +117,6 @@ apt-get install wget
 clear
 wget https://raw.githubusercontent.com/tampansky/SPAM.php/master/call.php -o call.php
 php call.php 
-fi 
 
 if [ $pilih = "5" ]
 echo -e $cyan "[!]Membuka penyimpanan[!]"
@@ -140,13 +136,11 @@ pkg install curl
 wget https://raw.githubusercontent.com/tampansky/WD/master/setup -o webdav.sh 
 clear
 bash webdav.sh 
-fi 
 
 if [ $pilih = "6" ]
 apt-get install cmatrix
 pkg install cmatrix
 cmatrix
-fi 
 
 if [ $pilih = "7" ]
 apt-get install php 
@@ -154,7 +148,6 @@ pkg install php git
 git clone https://github.com/IndonesianSecurity/kkktp
 cd kkktp
 php kkktp.php
-fi 
 
 if [ $pilih = "8" ]
 apt-get install python2 
@@ -164,14 +157,12 @@ clear
 git clone https://github.com/FajriHidayat088/FHX-Hash-Killer/
 cd FHX-Hash-Killer
 python2 FHXhashKiller.py
-fi 
 
 if [ $pilih = "9" ]
 apt-get install wget
 pkg install wget
 wget https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh -o msf.sh 
 bash msf.sh 
-fi 
 
 if [ $pilih = "10" ]
 apt-get install php 
@@ -181,4 +172,3 @@ clear
 git clone https://github.com/AMVengeance/FB-React
 cd Fb_react
 bash start
-fi 
