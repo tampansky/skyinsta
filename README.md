@@ -1,1 +1,1 @@
-# skyinsta
+# skyinstaller by tampansky
