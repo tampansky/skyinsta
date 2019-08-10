@@ -49,7 +49,7 @@ sleep 1
 }
 start
 echo 
-echo -e $white"╭|$red════════════════════════$white|╮"
+echo -e $white"╭|$red══════════════════════════$white|╮"
 sleep 0.25
 echo -e $white" |   $red HAPPY INSTALLING      $white|"
 sleep 0.25
@@ -73,7 +73,7 @@ echo -e $white" |    9.$red Metasploit         $white|"
 sleep 0.25
 echo -e $white" |    10.$red Fb_react          $white|"
 sleep 0.25
-echo -e $white"╰|$red════════════════════════$white|╯"
+echo -e $white"╰|$red══════════════════════════$white|╯"
 sleep 0.25
 echo -e $white"╭══[$red./root@localhost$white]══[$red./installer$white]═╮"
 echo -n -e $white"╰══[$red.pilih$white]>"
